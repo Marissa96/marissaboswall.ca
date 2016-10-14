@@ -1,0 +1,72 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.homepage-image {
+  width: 100%;
+  position: relative;
+}
+
+nav ol {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+nav a{
+  padding: 0.5em;
+  margin: 0em;
+  text-decoration: none;
+  display: block;
+}
+
+p {
+  font-family: 'Coming Soon', cursive;
+}
+
+
+
+.header {
+  position: relative;
+}
+
+.me {
+  width: 100%;
+}
+
+.nav-bar {
+  overflow: hidden;
+  background-color: rgba(127, 205, 153, 0.5);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.white {
+  color: white;
+}
