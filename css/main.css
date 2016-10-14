@@ -45,14 +45,24 @@ nav a{
   display: block;
 }
 
-p {
-  font-family: 'Coming Soon', cursive;
+a {
+  text-decoration: none;
 }
 
+p {
+  font-family: 'Coming Soon', cursive;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
 
+h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+}
 
-.header {
-  position: relative;
+h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .me {
@@ -62,11 +72,53 @@ p {
 .nav-bar {
   overflow: hidden;
   background-color: rgba(127, 205, 153, 0.5);
-  position: absolute;
   bottom: 0;
   width: 100%;
 }
 
 .white {
   color: white;
+}
+
+.work {
+  max-height: 300px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.background-color {
+  background: grey;
+}
+
+.btn {
+  padding: 0.375em 1.5em 0.42em;
+  background-color: #19bcb9;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #21d8cf;
+}
+
+.sketches {
+  width: 75%;
+  display: inline-block;;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .work {
+    max-height: 400px;
+  }
+}
+
+
+
+@media only screen and (min-width: 60em) {
+
+  .work {
+    max-height: 550px;
+  }
 }
