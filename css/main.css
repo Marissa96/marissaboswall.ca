@@ -25,15 +25,29 @@ body {
   position: relative;
 }
 
+.hand-lettered-nav {
+  width: 50%;
+}
+
+.small-hand-lettered-nav {
+  width: 33%;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 5%;
+}
+
 nav ol {
   list-style-type: none;
   margin: 0;
   overflow: hidden;
-  padding: 0;
+  padding-right: 4em;
+  padding-left: 0;
 }
 
 nav li {
-  float: left;
+  display: inline-block;
   width: 25%;
   font-family: 'PT Sans Narrow', sans-serif;
 }
@@ -89,7 +103,7 @@ h2 {
 }
 
 .background-color {
-  background: grey;
+  border-bottom: black;
 }
 
 .btn {

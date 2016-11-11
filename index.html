@@ -3,14 +3,14 @@ layout: default
 ---
 
 <div class="grid">
-  <div class="unit">
+  <div class="unit" style="position:relative;">
     <img class="homepage-image" src="{{site.baseurl}}/images/homepage.jpg" alt="">
+    <nav class="unit xs-1 s-1 m-1 b-1">
+      <ol class="absolute" style="display:flex;justify-content:flex-end;text-align:right;">
+        <li><a href="{{site.baseurl}}"><img class="small-hand-lettered-nav" src="images/home-nav.png"></a></li>
+        <li><a href="{{site.baseurl}}/about-me/"><img class="hand-lettered-nav" src="images/about-me-nav.png"></a></li>
+        <li><a href="{{site.baseurl}}/my-work"><img class="hand-lettered-nav" src="images/my-work-nav.png"></a></li>
+      </ol>
+    </nav>
   </div>
-  <nav class="unit xs-1 s-1 m-1 b-1">
-    <ol>
-      <li><a href="{{site.baseurl}}">Home</a></li>
-      <li><a href="{{site.baseurl}}/about-me/">About Me</a></li>
-      <li><a href="{{site.baseurl}}/my-work">My Work</a></li>
-    </ol>
-  </nav>
 </div>
