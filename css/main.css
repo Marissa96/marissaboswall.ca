@@ -67,13 +67,16 @@ a {
 }
 
 .icons {
-  width: 60px;
+  width: 10%;
+  height: 10%;
 }
 
 .absolute-left {
   position: absolute;
   top: 5%;
   padding-left: 4em;
+  flex-direction: column;
+  display: flex;
 }
 
 .position-relative {
@@ -97,6 +100,10 @@ h2 {
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
+h3 {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
 .me {
   width: 100%;
 }
@@ -110,8 +117,15 @@ h2 {
 
 .nav-center {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   text-align: center;
+  padding-top: 0.5em;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.green-background {
+  background-color: #a1cd3a;
 }
 
 .white {
@@ -119,7 +133,11 @@ h2 {
 }
 
 .work {
-  max-height: 300px;
+  width: 90%;
+}
+
+.padding {
+  padding: 0.5em;
 }
 
 .centered {
@@ -136,6 +154,10 @@ h2 {
   background-color: #73c04a;
 }
 
+.border {
+  border-bottom: 1px solid black;
+}
+
 .sketches {
   width: 75%;
   display: inline-block;;
@@ -144,7 +166,7 @@ h2 {
 @media only screen and (min-width: 38em) {
 
   .work {
-    max-height: 400px;
+
   }
 }
 
@@ -153,6 +175,6 @@ h2 {
 @media only screen and (min-width: 60em) {
 
   .work {
-    max-height: 550px;
+
   }
 }
