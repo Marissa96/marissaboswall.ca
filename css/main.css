@@ -189,6 +189,22 @@ h2 {
   background-color: #e7f9af;
 }
 
+.not-found-page {
+  width: 75%;
+  padding-left: 15em;
+}
+
+.nfp {
+  padding: 0;
+  text-align: center;
+}
+
+.nfp-link {
+  padding: 0;
+  text-align: center;
+  color: #a1cd3a;
+}
+
 @media only screen and (min-width: 38em) {
 
   .homepage-icons {
